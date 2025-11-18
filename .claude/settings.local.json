@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/tim/code/gh/provide-io/pyvider-cty/src/pyvider/cty/exceptions/**)",
+      "Bash(pytest:*)",
+      "Bash(python:*)",
+      "Bash(xargs ls:*)",
+      "Bash(test:*)",
+      "Bash(chmod:*)",
+      "Bash(uv run python:*)",
+      "Bash(uv run pytest:*)",
+      "Bash(uv run make:*)",
+      "Bash(uv run ruff:*)",
+      "Bash(echo:*)",
+      "Bash(uv run mypy:*)",
+      "Bash(for example in examples/0*.py)",
+      "Bash(do echo \"=== Running $example ===\")",
+      "Bash(/dev/null)",
+      "Bash(done)",
+      "Bash(do echo \"=== Testing $example ===\")",
+      "Bash(tree:*)",
+      "Bash(cat:*)",
+      "Bash(mutmut --version:*)",
+      "Read(//Users/tim/**)",
+      "Bash(mutmut run:*)",
+      "Bash(timeout 30 mutmut run:*)",
+      "Bash(timeout 600 mutmut run:*)",
+      "Bash(tee:*)",
+      "Bash(pkill:*)",
+      "Bash(timeout 600 uv run:*)",
+      "Bash(uv run mutmut:*)",
+      "Bash(sqlite3:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "/Users/tim/code/gh/provide-io"
+    ]
+  }
+}
