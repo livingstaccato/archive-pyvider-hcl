@@ -1479,7 +1479,7 @@ docs = [
 
 [package.metadata]
 requires-dist = [
-    { name = "attrs", specifier = ">=25.3.0" },
+    { name = "attrs", specifier = ">=25.4.0" },
     { name = "provide-foundation" },
     { name = "python-hcl2", specifier = ">=7.2.1" },
     { name = "pyvider" },
