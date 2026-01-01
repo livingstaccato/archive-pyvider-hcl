@@ -280,7 +280,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines. For bugs, pl
 ## Documentation
 
 - **[User Guide](docs/guide.md)**: Detailed usage examples and patterns
-- **[API Reference](docs/api/index.md)**: Complete API documentation
+- **[API Reference](docs/reference/index.md)**: Complete API documentation
 - **[Architecture](docs/architecture.md)**: System design and data flow diagrams
 - **[Contributing](CONTRIBUTING.md)**: Guidelines for contributors
 - **[Changelog](CHANGELOG.md)**: Version history and release notes
