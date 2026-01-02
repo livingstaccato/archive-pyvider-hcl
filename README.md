@@ -22,6 +22,44 @@ This library is mostly a wrapper around the excellent `python-hcl2` library. `py
 - Create `CtyValue` objects for Terraform variables and resources
 - Pretty print CTY values for debugging
 
+## Quick Start
+For a quick start, see [docs/index.md](docs/index.md).
+
+## Documentation
+
+- **[User Guide](docs/guide.md)**: Detailed usage examples and patterns
+- **[API Reference](docs/reference/index.md)**: Complete API documentation
+- **[Architecture](docs/architecture.md)**: System design and data flow diagrams
+- **[Contributing](CONTRIBUTING.md)**: Guidelines for contributors
+- **[Changelog](CHANGELOG.md)**: Version history and release notes
+
+## Development
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and guidelines.
+
+Quick start for development:
+
+```bash
+# Clone and setup
+git clone https://github.com/provide-io/pyvider-hcl.git
+cd pyvider-hcl
+uv sync
+
+# Run tests
+uv run pytest -n auto
+
+# Format and lint
+uv run ruff format .
+uv run ruff check .
+```
+
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+
+## License
+
+Apache-2.0 License - see [LICENSE](LICENSE) for details.
+
 ## Installation
 
 To install `pyvider-hcl`, you can use `uv`:
@@ -276,38 +314,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines. For bugs, pl
 - The HCL content that fails
 - The error message
 - Expected vs. actual behavior
-
-## Documentation
-
-- **[User Guide](docs/guide.md)**: Detailed usage examples and patterns
-- **[API Reference](docs/reference/index.md)**: Complete API documentation
-- **[Architecture](docs/architecture.md)**: System design and data flow diagrams
-- **[Contributing](CONTRIBUTING.md)**: Guidelines for contributors
-- **[Changelog](CHANGELOG.md)**: Version history and release notes
-
-## Development
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and guidelines.
-
-Quick start for development:
-
-```bash
-# Clone and setup
-git clone https://github.com/provide-io/pyvider-hcl.git
-cd pyvider-hcl
-uv sync
-
-# Run tests
-uv run pytest -n auto
-
-# Format and lint
-uv run ruff format .
-uv run ruff check .
-```
-
-## License
-
-Apache-2.0 License - see [LICENSE](LICENSE) for details.
 
 ## Related Projects
 
