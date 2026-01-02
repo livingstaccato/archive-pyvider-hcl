@@ -161,9 +161,9 @@ _pretty_print_cty_recursive()
 **Modules:**
 - **`config.py`**: Terraform configuration parsing - contains `parse_terraform_config()`
 
-**Status:** Placeholder for future implementation
+**Status:** Placeholder for exploratory implementation
 
-**Planned Responsibilities:**
+**Exploratory Responsibilities:**
 - Parse Terraform-specific blocks (provider, module, data, etc.)
 - Handle Terraform configuration files
 - Validate Terraform-specific structures
