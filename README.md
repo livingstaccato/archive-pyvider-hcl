@@ -323,4 +323,4 @@ See [CONTRIBUTING.md](https://github.com/provide-io/pyvider-hcl/blob/main/CONTRI
 - [pyvider](https://github.com/provide-io/pyvider): Terraform provider framework for Python
 - [provide-foundation](https://github.com/provide-io/provide-foundation): Foundation services and utilities
 
-Copyright (c) Provide.io LLC.
+Copyright (c) provide.io LLC.
