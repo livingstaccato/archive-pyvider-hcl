@@ -23,7 +23,9 @@ This library is mostly a wrapper around the excellent `python-hcl2` library. `py
 - Pretty print CTY values for debugging
 
 ## Quick Start
-For a quick start, see [docs/index.md](docs/index.md).
+1. Install: `pip install pyvider-hcl`
+2. Read the [Getting Started guide](docs/getting-started.md).
+3. Try the examples in [examples/README.md](examples/README.md).
 
 ## Documentation
 
