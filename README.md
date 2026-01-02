@@ -277,7 +277,7 @@ result = parse_hcl_to_cty(hcl_content, schema=schema)
 
 ### Can I use this with Terraform configurations?
 
-Yes! The library parses HCL syntax used by Terraform. The `create_variable_cty()` and `create_resource_cty()` factory functions help create Terraform-specific structures. However, full Terraform-specific validation (provider blocks, module blocks, etc.) is not yet implemented.
+Yes! The library parses HCL syntax used by Terraform. The `create_variable_cty()` and `create_resource_cty()` factory functions help create Terraform-specific structures. Full Terraform-specific validation (provider blocks, module blocks, etc.) is limited.
 
 ### What HCL version is supported?
 
