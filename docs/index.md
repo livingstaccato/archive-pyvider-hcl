@@ -40,7 +40,7 @@ Understand how provide-foundation, pyvider, flavorpack, and other projects work 
 
 - **Just need YAML/TOML** → Use standard libraries (`pyyaml`, `tomli`)
 - **Need full Terraform evaluation** → Use Terraform CLI directly
-- **Building Terraform providers** → Use [pyvider](../pyvider/) (includes HCL support automatically)
+- **Building Terraform providers** → Use [pyvider](https://github.com/provide-io/pyvider) (pair with pyvider-hcl for HCL parsing)
 - **Simple config files** → Consider JSON/YAML for simpler use cases
 - **No HCL involvement** → The library is specifically for HCL parsing
 
@@ -97,9 +97,9 @@ validated = parse_hcl_to_cty(hcl_string, schema=schema)
 
 ### Related Projects
 
-- **Using pyvider?** → pyvider-hcl is automatically included, no separate installation needed
-- **Need type handling?** → See [pyvider-cty](../pyvider-cty/) for working with cty types
-- **Building providers?** → See [pyvider](../pyvider/) for the full provider framework
+- **Using pyvider?** → Add pyvider-hcl when you need HCL parsing
+- **Need type handling?** → See [pyvider-cty](https://github.com/provide-io/pyvider-cty) for working with cty types
+- **Building providers?** → See [pyvider](https://github.com/provide-io/pyvider) for the full provider framework
 - **View ecosystem?** → See [Ecosystem Overview](https://foundry.provide.io/provide-foundation/ecosystem/) for how all projects relate
 
 ---
