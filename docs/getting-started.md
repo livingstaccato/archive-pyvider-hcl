@@ -207,7 +207,7 @@ Now that you've learned the basics, explore more advanced topics:
 - **[User Guide](guide/)** - Comprehensive usage examples
 - **[API Reference](reference/)** - Complete API documentation
 - **[Architecture](architecture/)** - Understand how pyvider-hcl works
-<!-- - **[Examples](../examples/README/)** - Working code examples -->
+<!-- - **[Examples](../examples/README.md)** - Working code examples -->
 
 ### Guides
 
@@ -261,6 +261,6 @@ def load_terraform_project(project_dir: Path):
 
 <!-- - **Examples**: Check the [examples/](../examples/) directory for working code -->
 - **Issues**: Report bugs at [GitHub Issues](https://github.com/provide-io/pyvider-hcl/issues)
-<!-- - **Contributing**: See [CONTRIBUTING.md](../CONTRIBUTING/) for contribution guidelines -->
+<!-- - **Contributing**: See [CONTRIBUTING.md](../CONTRIBUTING.md) for contribution guidelines -->
 
 Happy parsing! 🚀
