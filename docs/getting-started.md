@@ -204,18 +204,18 @@ except HclParsingError as e:
 
 Now that you've learned the basics, explore more advanced topics:
 
-- **[User Guide](guide/)** - Comprehensive usage examples
-- **[API Reference](reference/)** - Complete API documentation
-- **[Architecture](architecture/)** - Understand how pyvider-hcl works
+- **[User Guide](guide.md)** - Comprehensive usage examples
+- **[API Reference](reference/index.md)** - Complete API documentation
+- **[Architecture](architecture.md)** - Understand how pyvider-hcl works
 <!-- - **[Examples](../examples/README.md)** - Working code examples -->
 
 ### Guides
 
-- [Parsing Guide](guides/parsing/) - Advanced parsing techniques
-- [Schema Validation](guides/schema-validation/) - Schema best practices
-- [Terraform Integration](guides/terraform-integration/) - Working with Terraform
-- [Error Handling](guides/error-handling/) - Robust error handling
-- [Testing](guides/testing/) - Testing with pyvider-hcl
+- [Parsing Guide](guides/parsing.md) - Advanced parsing techniques
+- [Schema Validation](guides/schema-validation.md) - Schema best practices
+- [Terraform Integration](guides/terraform-integration.md) - Working with Terraform
+- [Error Handling](guides/error-handling.md) - Robust error handling
+- [Testing](guides/testing.md) - Testing with pyvider-hcl
 
 ## Common Patterns
 
