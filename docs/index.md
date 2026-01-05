@@ -171,7 +171,7 @@ resource = create_resource_cty(
 ## Documentation
 
 ### Getting Started
-- **[Getting Started Guide](getting-started/)**: Installation and first steps
+- **[Getting Started Guide](getting-started.md)**: Installation and first steps
 
 ### Guides
 **Learn More:**
